@@ -27,8 +27,8 @@ java/rustExamplesUsingJava/.settings
 java/rustExamplesUsingJava/.classpath
 java/rustExamplesUsingJava/.project
 java/rustExamplesUsingJava/target
-c++/rust-examples-using-c++/lib/googletest
 C++/rust-examples-using-c++/build/src
+C++/rust-examples-using-c++/build/lib
 c++/rust-examples-using-c++/build/tst
 c++/rust-examples-using-c++/build/bin
 c++/rust-examples-using-c++/build/CMakefiles
