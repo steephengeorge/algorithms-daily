@@ -1,0 +1,2 @@
+/usr/bin/ar qc librust-examples-using-c++_lib.a  CMakeFiles/rust-examples-using-c++_lib.dir/chapter1/hello_world.cpp.o CMakeFiles/rust-examples-using-c++_lib.dir/main.cpp.o
+/usr/bin/ranlib librust-examples-using-c++_lib.a

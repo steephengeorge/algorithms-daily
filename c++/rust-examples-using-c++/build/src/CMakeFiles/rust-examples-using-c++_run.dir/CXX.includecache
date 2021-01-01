@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/steephen/programming/algorithms-daily/c++/rust-examples-using-c++/src/chapter1/hello_world.cpp
+hello_world.h
+/home/steephen/programming/algorithms-daily/c++/rust-examples-using-c++/src/chapter1/hello_world.h
+
+/home/steephen/programming/algorithms-daily/c++/rust-examples-using-c++/src/chapter1/hello_world.h
+string
+-
+
+/home/steephen/programming/algorithms-daily/c++/rust-examples-using-c++/src/main.cpp
+

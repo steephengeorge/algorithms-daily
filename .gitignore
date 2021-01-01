@@ -23,5 +23,21 @@ rust/out
 java/Algorithm-daily/.settings
 java/Algorithm-daily/.classpath
 java/Algorithm-daily/.project
+java/rustExamplesUsingJava/.settings
+java/rustExamplesUsingJava/.classpath
+java/rustExamplesUsingJava/.project
+java/rustExamplesUsingJava/target
+c++/rust-examples-using-c++/lib/googletest
+C++/rust-examples-using-c++/build/src
+c++/rust-examples-using-c++/build/lib
+c++/rust-examples-using-c++/build/tst
+c++/rust-examples-using-c++/build/bin
+c++/rust-examples-using-c++/build/CMakefiles
+c++/rust-examples-using-c++/build/Makefile
+c++/rust-examples-using-c++/build/CMakeCache.txt
+c++/rust-examples-using-c++/build/cmake_install.cmake
+c++/rust-examples-using-c++/build/CMakeFiles/
+
+rust/rust-with-examples/target/
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
