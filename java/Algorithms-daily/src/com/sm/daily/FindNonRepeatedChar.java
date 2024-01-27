@@ -1,6 +1,5 @@
 package com.sm.daily;
 
-import java.util.Iterator;
 import java.util.LinkedHashMap;
 import java.util.Map;
 
@@ -13,17 +12,18 @@ public class FindNonRepeatedChar {
 
 		//input -> abcbae
 		Map<Character, Integer> storage = new LinkedHashMap<>();
-		for(int i = 0; i < str.length(); ++i) {
-			storage.merge(str.charAt(i), 1, (v1, v2) ->  v1 + v2);
+		for( char c: str.toCharArray()){
+			if(storage.containsKey(c)){
+				storage.put(c, storage.get(c) + 1);
+				continue;
+			}
+			storage.put(c, 1);
 		}
-        Iterator<Character> keySetIterator = storage.keySet().iterator();
-		
-		while(keySetIterator.hasNext()) {
-			Character key = (Character) keySetIterator.next();
-			Integer val = storage.get(key);
-			if(val == 1) return key;
-		}
+       for(var pair : storage.entrySet() ){
+			if(pair.getValue() ==1){
+				return pair.getKey();
+			}
+	   }
 		return null;
-
 	}
 }
